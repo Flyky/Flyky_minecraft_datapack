@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": "废物利用",
+    "description": "这是一种废物利用的方式",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "flyky:to_leather"      
+      }
+    },
+    "got_rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rabbit_hide"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "got_recipe",
+      "got_rabbit_hide"
+    ]
+  ],
+  "rewards": {
+    "experience": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"///",
+		"///",
+		"///"
+	],
+	"key": {
+		"/": {
+			"item": "minecraft:emerald_block"
+		}
+	},
+	"result": {
+		"item": "minecraft:chain_command_block",
+		"count": 1
+	}
+}

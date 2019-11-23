@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"000",
+		"000",
+		"000"
+	],
+	"key": {
+		"0": {
+			"item": "minecraft:iron_block"
+		}
+	},
+	"result": {
+		"item": "minecraft:structure_block",
+		"count": 1
+	}
+}

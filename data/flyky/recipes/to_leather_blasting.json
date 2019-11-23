@@ -1,0 +1,29 @@
+{
+    "type": "blasting",
+    "ingredient": [
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "minecraft:leather_boots"
+        },
+        {
+            "item": "minecraft:leather_helmet"
+        },
+        {
+            "item": "minecraft:leather_chestplate"
+        },
+        {
+            "item": "minecraft:leather_horse_armor"
+        },
+        {
+            "item": "minecraft:saddle"
+        },
+        {
+            "item": "minecraft:leather_leggings"
+        }
+    ],
+    "result": "minecraft:leather",
+    "experience": 0.1,
+    "cookingtime": 400
+}
