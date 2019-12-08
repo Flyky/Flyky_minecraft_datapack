@@ -1,1 +1,1 @@
-{"flyky":{"$func":["killmobs1"]}}
+{"flyky":{"use":{"$func":["killmobs1","killmobs1"]},"$func":["install","uninstall"],"health":{"$func":["install","uninstall"]},"score":{"$func":["install","main","uninstall"]},"sleep":{"$func":["install","main","uninstall"]}}}
