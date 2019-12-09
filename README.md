@@ -19,5 +19,8 @@ minecraft datapack for jave edition (version above 1.13)
 by [Harvey_kang](https://space.bilibili.com/69736899/)
 开关计分板显示命令 `/trigger scoreswitch set 0 / 1`
 
+### 打招呼（高亮自身）
+使用命令`/trigger here`高亮自己，并发送坐标在聊天栏内
+
 ### use
 - killmobs1 
