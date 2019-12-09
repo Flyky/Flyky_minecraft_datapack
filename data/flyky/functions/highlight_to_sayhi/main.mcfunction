@@ -8,4 +8,4 @@ execute if score @s dimensionlity matches 0 run function flyky:highlight_to_sayh
 execute if score @s dimensionlity matches 1 run function flyky:highlight_to_sayhi/the_end
 execute if score @s dimensionlity matches -1 run function flyky:highlight_to_sayhi/the_nether
 tellraw @s {"text":"您将被高亮20秒!","color":"gold"}
-tellraw @a [{"text":"指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发该效果","color":"green"}]
+tellraw @a [{"text":"指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发该效果","color":"green","clickEvent":{"action":"run_command","value":"/trigger here"}}]

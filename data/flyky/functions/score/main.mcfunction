@@ -10,3 +10,4 @@ scoreboard players enable @a scoreswitch
 execute if entity @a[scores={scoreswitch=0},team=aqua] run team join white @a[scores={scoreswitch=0},team=aqua]
 execute if entity @a[scores={scoreswitch=1},team=!aqua] run team join aqua @a[scores={scoreswitch=1},team=!aqua]
 team join aqua @a[team=!aqua,team=!white]
+function flyky:use/initial_all_player_scoreboard
