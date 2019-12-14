@@ -1,9 +1,7 @@
 {
 	"type": "crafting_shaped",
 	"pattern": [
-		" $ ",
-		"$!$",
-		" $ "
+		"$!$"
 	],
 	"key": {
 		"$": {
