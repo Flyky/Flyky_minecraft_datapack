@@ -15,12 +15,15 @@ minecraft datapack for jave edition (version above 1.13)
   
 
 ## functions
+### 进群提示
+新人进群提示 以及 老玩家进群提示
+
 ### 循环计分板 & 睡觉提示
 by [Harvey_kang](https://space.bilibili.com/69736899/)
 开关计分板显示命令 `/trigger scoreswitch set 0 / 1`
 
-### 打招呼（高亮自身）
+### 打招呼（高亮自身,位置提示）
 使用命令`/trigger here`高亮自己，并发送坐标在聊天栏内
 
 ### use
-- killmobs1 
+- killmobs 清除怪物

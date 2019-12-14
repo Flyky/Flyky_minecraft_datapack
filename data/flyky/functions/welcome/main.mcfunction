@@ -11,7 +11,7 @@ tag @a[tag=!oldPlayer] add oldPlayer
 
 # 老玩家
 scoreboard players add @a[scores={QuitGame=1}] loginTimes 1
-tellraw @a[scores={QuitGame=1}] [{"text":"这是您的第 ","color":"blue"},{"score":{"name":"@p","objective":"loginTimes"}},{"text":" 次进服 ！","color":"blue"}]
+tellraw @a[scores={QuitGame=1}] [{"text":"这是您的第 ","color":"blue"},{"score":{"name":"@a[scores={QuitGame=1}]","objective":"loginTimes"}},{"text":" 次进服 ！","color":"blue"}]
 tellraw @a[scores={QuitGame=1}] [{"text":"Welcome back ~","color":"red","bold":true},{"text":"欢迎回来，这里是你熟悉的 ","color":"yellow","bold":false},{"text":"摸鱼村服","color":"gold","bold":true,"underlined":true}]
 tellraw @a[scores={QuitGame=1}] [{"text":"本服现为 ","color":"yellow"},{"text":"JE1.15 vanilla server","color":"aqua","underlined":true},{"text":" ,开启正版验证","color":"yellow","underlined":false}]
 tellraw @a[scores={QuitGame=1}] {"text":"------------------------------------------","color":"gray"}
