@@ -3,7 +3,8 @@ minecraft datapack for jave edition (version above 1.13)
 
 # features
 ## recipes
-实现配方包括：
+具体配方可[点击此处](https://github.com/Flyky/Flyky_minecraft_datapack/blob/master/data/flyky/recipes/README.md)查看
+实现配方部分包括：
 - 鞘翅
 - 潜影壳
 - 原木等合成4箱子
