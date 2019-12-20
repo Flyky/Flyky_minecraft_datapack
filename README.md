@@ -26,5 +26,8 @@ by [Harvey_kang](https://space.bilibili.com/69736899/)
 ### 打招呼（高亮自身,位置提示）
 使用命令`/trigger here`高亮自己，并发送坐标在聊天栏内
 
+### 清理掉落物
+使用命令`/trigger clear_items`启动 <1分钟后清理掉落物>，内含取消清理
+
 ### use
 - killmobs 清除怪物

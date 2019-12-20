@@ -3,6 +3,7 @@
 		"flyky:score/main",
 		"flyky:sleep/main",
 		"flyky:highlight_to_sayhi/tick",
-		"flyky:welcome/main"
+		"flyky:welcome/main",
+		"flyky:item_cleaner/main"
 	]
 }
