@@ -1,0 +1,21 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:blue_dye"
+		},
+		{
+			"item": "minecraft:blue_dye"
+		},
+		{
+			"item": "minecraft:blue_dye"
+		},
+		{
+			"tag": "flyky:beds"
+		}
+	],
+	"result": {
+		"item": "minecraft:blue_bed",
+		"count": 1
+	}
+}
