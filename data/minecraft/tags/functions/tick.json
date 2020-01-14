@@ -4,6 +4,8 @@
 		"flyky:sleep/main",
 		"flyky:highlight_to_sayhi/tick",
 		"flyky:welcome/main",
-		"flyky:item_cleaner/main"
+		"flyky:item_cleaner/main",
+		"flyky:bigkiller/main",
+		"flyky:config/main"
 	]
 }

@@ -4,8 +4,9 @@ tellraw @a[tag=!oldPlayer] [{"text":"本服现为 ","color":"yellow"},{"text":"J
 tellraw @a[tag=!oldPlayer] {"text":"------------------------------------------","color":"gray"}
 tellraw @a[tag=!oldPlayer] {"text":"服务器加入了腐竹数据包实现相关功能，详情请在群内@村长，以下为数据包功能提示","color":"light_purple"}
 tellraw @a[tag=!oldPlayer] [{"text":"· 其中，自定义合成大部分同TIS外服，如压缩矿物、鞘翅潜影壳等，"},{"text":"具体可点击此处查看文档","color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/Flyky/Flyky_minecraft_datapack/blob/master/data/flyky/recipes/README.md"}}]
-tellraw @a[tag=!oldPlayer] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreswitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreswitch set 1"}},{"text":"可开启计分板显示 点击此处可直接开启","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreswitch set 1"}}]
+tellraw @a[tag=!oldPlayer] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreswitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreswitch set 1"}},{"text":"可开启轮播计分板显示 点击此处可直接开启","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreswitch set 1"}}]
 tellraw @a[tag=!oldPlayer] [{"text":"· 指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发自身高亮提示效果 点击此处可直接触发","color":"green","clickEvent":{"action":"run_command","value":"/trigger here"}}]
+tellraw @a[tag=!oldPlayer] [{"text":"更多详细功能提示与设置可使用命令","color":"gold"},{"text":"/trigger options","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger options"},"hoverEvent":{"action":"show_text","value":"点击以访问全部设置"}},{"text":"访问"}]
 scoreboard players add @a[tag=!oldPlayer] loginTimes 1
 tag @a[tag=!oldPlayer] add oldPlayer
 
@@ -17,6 +18,9 @@ tellraw @a[scores={QuitGame=1}] [{"text":"本服现为 ","color":"yellow"},{"tex
 tellraw @a[scores={QuitGame=1}] {"text":"------------------------------------------","color":"gray"}
 tellraw @a[scores={QuitGame=1}] {"text":"服务器加入了腐竹数据包实现相关功能，详情请在群内@村长，以下为数据包功能提示","color":"light_purple"}
 tellraw @a[scores={QuitGame=1}] [{"text":"· 其中，自定义合成大部分同TIS外服，如压缩矿物、鞘翅潜影壳等，"},{"text":"具体可点击此处查看文档","color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/Flyky/Flyky_minecraft_datapack/blob/master/data/flyky/recipes/README.md"}}]
-tellraw @a[scores={QuitGame=1}] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreswitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreswitch set 1"}},{"text":"可开启计分板显示","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreswitch set 1"}}]
+tellraw @a[scores={QuitGame=1}] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreswitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreswitch set 1"}},{"text":"可开启轮播计分板显示","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreswitch set 1"}}]
 tellraw @a[scores={QuitGame=1}] [{"text":"· 指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发自身高亮提示效果","color":"green","clickEvent":{"action":"run_command","value":"/trigger here"}}]
+execute if score carpet carpet matches 1.. run tellraw @a[scores={QuitGame=1}] [{"text":"务必使用","color":"dark_red"},{"text":"/script invoke summon 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/script invoke summon "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"召唤假人，可以避免将他们计入记分板总分！","color":"dark_red"}]
+execute if score carpet carpet matches 1.. run tellraw @a[scores={QuitGame=1}] [{"text":"务必使用","color":"dark_red"},{"text":"/script invoke kill 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/script invoke kill "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"删除假人，否则其标签无法删除！","color":"dark_red"}]
+tellraw @a[scores={QuitGame=1}] [{"text":"更多详细功能提示与设置可使用命令","color":"gold"},{"text":"/trigger options","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger options"},"hoverEvent":{"action":"show_text","value":"点击以访问全部设置"}},{"text":"访问"}]
 scoreboard players set @a[scores={QuitGame=1}] QuitGame 0
