@@ -1,5 +1,6 @@
 # Flyky_minecraft_datapack
-minecraft datapack for jave edition (version above 1.13) 
+minecraft datapack for jave edition (version 1.15.x) 
+*数据包仅供个人私服使用，不作发布release版本，如需使用请注意自行魔改*
 
 # features
 ## recipes
@@ -20,7 +21,7 @@ minecraft datapack for jave edition (version above 1.13)
 新人进群提示 以及 老玩家进群提示
 
 ### 循环计分板 & 睡觉提示
-by [Harvey_kang](https://space.bilibili.com/69736899/)
+by [Harvey_kang](https://github.com/Harveykang)
 开关计分板显示命令 `/trigger scoreswitch set 0 / 1`
 
 ### 打招呼（高亮自身,位置提示）
@@ -30,4 +31,4 @@ by [Harvey_kang](https://space.bilibili.com/69736899/)
 使用命令`/trigger clear_items`启动 <1分钟后清理掉落物>，内含取消清理
 
 ### use
-- killmobs 清除怪物
+- killmobs 清除怪物（kill命令）

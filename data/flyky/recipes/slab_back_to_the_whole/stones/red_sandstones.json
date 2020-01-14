@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+        "*",
+		"o",
+        "*"
+	],
+	"key": {
+		"*": {
+			"item": "minecraft:red_sandstone_slab"
+		},
+		"o": {
+			"item": "minecraft:slime_ball"
+		}
+	},
+	"result": {
+		"item": "minecraft:red_sandstone",
+		"count": 1
+	}
+}

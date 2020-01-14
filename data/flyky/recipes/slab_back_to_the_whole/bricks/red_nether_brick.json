@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+        "*",
+		"o",
+        "*"
+	],
+	"key": {
+		"*": {
+			"item": "minecraft:red_nether_brick_slab"
+		},
+		"o": {
+			"item": "minecraft:slime_ball"
+		}
+	},
+	"result": {
+		"item": "minecraft:red_nether_bricks",
+		"count": 1
+	}
+}
