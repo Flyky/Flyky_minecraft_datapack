@@ -2,7 +2,7 @@
 # 预留保留名（不会被清理的）：Dinnerbone，Grumm，remained, qwq
 
 # 僵尸
-tp @e[type=zombie,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq] ~ -32768 ~
+tp @e[type=zombie,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq,name=!"促销员"] ~ -32768 ~
 
 # 苦力怕
 tp @e[type=creeper,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq] ~ -32768 ~

@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:end/elytra",
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "VMYS航天人",
+    "description": "您都摸到天上去了?\n(100000m)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fly_high": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "y": {
+            "min": 100000,
+            "max": 100999
+          }
+        }
+      }
+    },
+    "use_elytra": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "delta": -1,
+        "item": {
+          "item": "minecraft:elytra"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fly_high"
+    ],
+    [
+      "use_elytra"
+    ]
+  ],
+  "rewards": {
+    "experience": 3
+  }
+}

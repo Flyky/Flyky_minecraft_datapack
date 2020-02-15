@@ -40,3 +40,6 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀）  
 `/trigger bigkiller`开启  
 `/trigger bigkiller set 0`关闭  
+
+## advancements
+### VMYS航天人
