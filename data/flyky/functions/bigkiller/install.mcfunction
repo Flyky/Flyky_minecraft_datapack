@@ -1,2 +1,2 @@
-scoreboard objectives add bigkiller dummy
-scoreboard players set killer killer 0
+scoreboard objectives add bigkiller trigger
+scoreboard objectives add openkiller dummy

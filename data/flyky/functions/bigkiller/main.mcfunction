@@ -1,3 +1,5 @@
-# 仅创造模式玩家可使用大杀器
-scoreboard players enable @a[gamemode=creative] bigkiller
-execute as @a at @s if score @s bigkiller matches 1.. run function flyky:bigkiller/killer/killmobs_tp
+# 仅拥有bigkiller标签的玩家可以使用
+scoreboard players enable @a[tag=bigkiller] bigkiller
+execute as @a[scores={bigkiller=..-1}] run function flyky:bigkiller/off
+execute as @a[scores={bigkiller=1..}] run function flyky:bigkiller/on
+execute if score bigkiller openkiller matches 1.. run function flyky:bigkiller/killer/killmobs_tp

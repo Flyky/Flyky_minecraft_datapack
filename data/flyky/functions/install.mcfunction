@@ -4,7 +4,6 @@ function flyky:sleep/install
 function flyky:highlight_to_sayhi/install
 function flyky:welcome/install
 function flyky:item_cleaner/install
-function flyky:carpet/install
 function flyky:bigkiller/install
 function flyky:config/install
 tellraw @a {"text":"---------------------------------------------","color":"white"}

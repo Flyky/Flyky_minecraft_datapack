@@ -6,6 +6,7 @@
 		"flyky:welcome/main",
 		"flyky:item_cleaner/main",
 		"flyky:bigkiller/main",
-		"flyky:config/main"
+		"flyky:config/main",
+		"fz:cleaner/trigger"
 	]
 }

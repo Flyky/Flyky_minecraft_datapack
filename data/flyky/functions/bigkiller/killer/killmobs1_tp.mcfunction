@@ -1,6 +1,9 @@
 # 清理主世界&末地怪物 
 # 预留保留名（不会被清理的）：Dinnerbone，Grumm，remained, qwq
 
+# 蝙蝠
+kill @e[type=bat,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq]
+
 # 僵尸
 tp @e[type=zombie,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq,name=!"促销员"] ~ -32768 ~
 

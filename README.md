@@ -31,15 +31,15 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 ### 打招呼（高亮自身,位置提示）
 使用命令`/trigger here`高亮自己，并发送坐标在聊天栏内
 
-### 清理掉落物
-使用命令`/trigger clear_items`启动 <1分钟后清理掉落物>，内含取消清理  
+### 清理掉落物（单次）
+使用命令`/trigger clear_items`启动 <20s后清理掉落物>，内含取消清理  
 
 ### 大杀器
-仅创造模式玩家可使用  
+仅【特定玩家】可使用 （特定玩家：拥有"bigkiller"标签的玩家）
 循环清除怪物（tp虚空方式，无掉落物）  
-命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀）  
+命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀），不包含僵尸村民  
 `/trigger bigkiller`开启  
-`/trigger bigkiller set 0`关闭  
+`/trigger bigkiller set -1`关闭  
 
 ## advancements
 ### VMYS航天人
