@@ -44,5 +44,5 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 ## advancements
 ### VMYS航天人
 飞到高空100KM
-### 摸鱼の王
+### 摸鱼福报
 在线时长累计超过996小时

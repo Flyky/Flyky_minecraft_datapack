@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:story/smelt_iron",
     "display": {
-        "title": [{"text": "摸鱼の王","bold": true,"color": "blue"},{"text": "？","bold": false,"color": "red"}],
+        "title": [{"text": "摸鱼福报","bold": true,"color": "aqua"},{"text": "？","bold": false,"color": "red"}],
         "description": [{"text": "在线摸鱼超 ","italic": true},{"text": "996","italic": false,"color": "gold","bold": true},{"text": " 小时","italic": true}],
         "icon": {
             "item": "minecraft:clock"
@@ -18,6 +18,6 @@
     },
     "requirements": [["func"]],
     "rewards": {
-        "experience": 100
+        "experience": 1000
     }
 }

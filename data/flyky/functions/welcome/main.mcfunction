@@ -11,16 +11,16 @@ scoreboard players add @a[tag=!oldPlayer] loginTimes 1
 tag @a[tag=!oldPlayer] add oldPlayer
 
 # 老玩家
-scoreboard players add @a[scores={QuitGame=1}] loginTimes 1
-tellraw @a[scores={QuitGame=1}] [{"text":"这是您的第 ","color":"blue"},{"score":{"name":"@a[scores={QuitGame=1}]","objective":"loginTimes"}},{"text":" 次进服 ！","color":"blue"}]
-tellraw @a[scores={QuitGame=1}] [{"text":"Welcome back ~","color":"red","bold":true},{"text":"欢迎回来，这里是你熟悉的 ","color":"yellow","bold":false},{"text":"摸鱼村服(VMYS)","color":"gold","bold":true,"underlined":true}]
-tellraw @a[scores={QuitGame=1}] [{"text":"本服现为 ","color":"yellow"},{"text":"JE1.15.2 vanilla server","color":"aqua","underlined":true},{"text":" ,开启正版验证","color":"yellow","underlined":false}]
-tellraw @a[scores={QuitGame=1}] {"text":"------------------------------------------","color":"gray"}
-tellraw @a[scores={QuitGame=1}] {"text":"服务器加入了腐竹数据包实现相关功能，详情请在群内@村长，以下为部分数据包功能提示","color":"light_purple"}
-tellraw @a[scores={QuitGame=1}] [{"text":"· 其中，自定义合成大部分同TIS外服，如压缩矿物、鞘翅潜影壳等，"},{"text":"具体可点击此处查看文档","color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/Flyky/Flyky_minecraft_datapack/blob/master/data/flyky/recipes/README.md"}}]
-tellraw @a[scores={QuitGame=1}] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreSwitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreSwitch set 1"}},{"text":"可开启轮播计分板显示","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreSwitch set 1"}}]
-tellraw @a[scores={QuitGame=1}] [{"text":"· 指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发自身高亮提示效果","color":"green","clickEvent":{"action":"run_command","value":"/trigger here"}}]
-execute if score tagplayer carpet matches 1 run tellraw @a[scores={QuitGame=1}] [{"text":"务必使用","color":"dark_red"},{"text":"/tagplayer summon 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/tagplayer summon "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"召唤假人，可以避免将他们计入记分板总分！","color":"dark_red"}]
-execute unless score tagplayer carpet matches 1 run tellraw @a[scores={QuitGame=1}] [{"text":"务必使用","color":"dark_red"},{"text":"/script invoke summon 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/script invoke summon "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"召唤假人，可以避免将他们计入记分板总分！","color":"dark_red"}]
-tellraw @a[scores={QuitGame=1}] [{"text":"更多详细功能提示与设置可使用命令","color":"gold"},{"text":"/trigger options","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger options"},"hoverEvent":{"action":"show_text","value":"点击以访问全部设置"}},{"text":"访问"}]
-scoreboard players set @a[scores={QuitGame=1}] QuitGame 0
+scoreboard players add @a[scores={QuitGame=1..}] loginTimes 1
+tellraw @a[scores={QuitGame=1..}] [{"text":"这是您的第 ","color":"blue"},{"score":{"name":"@a[scores={QuitGame=1}]","objective":"loginTimes"}},{"text":" 次进服 ！","color":"blue"}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"Welcome back ~","color":"red","bold":true},{"text":"欢迎回来，这里是你熟悉的 ","color":"yellow","bold":false},{"text":"摸鱼村服(VMYS)","color":"gold","bold":true,"underlined":true}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"本服现为 ","color":"yellow"},{"text":"JE1.15.2 vanilla server","color":"aqua","underlined":true},{"text":" ,开启正版验证","color":"yellow","underlined":false}]
+tellraw @a[scores={QuitGame=1..}] {"text":"------------------------------------------","color":"gray"}
+tellraw @a[scores={QuitGame=1..}] {"text":"服务器加入了腐竹数据包实现相关功能，详情请在群内@村长，以下为部分数据包功能提示","color":"light_purple"}
+tellraw @a[scores={QuitGame=1..}] [{"text":"· 其中，自定义合成大部分同TIS外服，如压缩矿物、鞘翅潜影壳等，"},{"text":"具体可点击此处查看文档","color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/Flyky/Flyky_minecraft_datapack/blob/master/data/flyky/recipes/README.md"}}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"· 指令","color":"green"},{"text":" /trigger scoreSwitch set 1 ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger scoreSwitch set 1"}},{"text":"可开启轮播计分板显示","color":"green","clickEvent":{"action":"run_command","value":"/trigger scoreSwitch set 1"}}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"· 指令","color":"green"},{"text":" /trigger here ","color":"gold","clickEvent":{"action":"suggest_command","value":"/trigger here"}},{"text":"可触发自身高亮提示效果","color":"green","clickEvent":{"action":"run_command","value":"/trigger here"}}]
+execute if score tagplayer carpet matches 1 run tellraw @a[scores={QuitGame=1..}] [{"text":"务必使用","color":"dark_red"},{"text":"/tagplayer summon 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/tagplayer summon "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"召唤假人，可以避免将他们计入记分板总分！","color":"dark_red"}]
+execute unless score tagplayer carpet matches 1 run tellraw @a[scores={QuitGame=1..}] [{"text":"务必使用","color":"dark_red"},{"text":"/script invoke summon 玩家名","underlined":true,"color":"red","clickEvent":{"action":"suggest_command","value":"/script invoke summon "},"hoverEvent":{"action":"show_text","value":"点击以写入聊天栏"}},{"text":"召唤假人，可以避免将他们计入记分板总分！","color":"dark_red"}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"更多详细功能提示与设置可使用命令","color":"gold"},{"text":"/trigger options","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger options"},"hoverEvent":{"action":"show_text","value":"点击以访问全部设置"}},{"text":"访问"}]
+scoreboard players set @a[scores={QuitGame=1..}] QuitGame 0
