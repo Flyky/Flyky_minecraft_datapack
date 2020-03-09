@@ -44,6 +44,10 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 
 ## advancements
 ### VMYS航天人
-飞到高空100KM
+飞到高空100KM 
 ### 摸鱼福报
-在线时长累计超过996小时
+在线时长累计超过996小时 
+### 虚无旅行者
+受到虚空伤害后平安返航
+### 深渊行者
+落至虚空y-1000仍能平安返航
