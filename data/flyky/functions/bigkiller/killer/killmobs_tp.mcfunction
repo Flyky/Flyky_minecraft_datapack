@@ -1,2 +1,2 @@
-function flyky:bigkiller/killer/killmobs1_tp
-function flyky:bigkiller/killer/killmobs2_tp
+function flyky:bigkiller/killer/killmobs_tp_overworld_end
+function flyky:bigkiller/killer/killmobs_tp_the_nether

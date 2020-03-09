@@ -1,6 +1,7 @@
 # Flyky_minecraft_datapack
 minecraft datapack for jave edition (version 1.15.x)   
 *!!数据包仅供个人私服使用，不作发布release版本，如需使用请注意自行魔改!!*  
+*!!数据包仅供个人私服使用，不作发布release版本，如需使用请注意自行魔改!!*  
 
 # features
 ## recipes
@@ -35,9 +36,9 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 使用命令`/trigger clear_items`启动 <20s后清理掉落物>，内含取消清理  
 
 ### 大杀器
-仅【特定玩家】可使用 （特定玩家：拥有"bigkiller"标签的玩家）
-循环清除怪物（tp虚空方式，无掉落物）  
-命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀），不包含僵尸村民  
+仅【特定玩家】可使用 （特定玩家：拥有"bigkiller"标签的玩家）  
+循环清除怪物（tp虚空方式，无掉落物）    
+命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀），不包含僵尸村民，凋灵，末影龙    
 `/trigger bigkiller`开启  
 `/trigger bigkiller set -1`关闭  
 
