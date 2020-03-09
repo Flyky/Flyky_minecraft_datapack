@@ -8,6 +8,7 @@
 		"flyky:bigkiller/main",
 		"flyky:config/main",
 		"fz:cleaner/trigger",
+		"flyky:position_y_timely/main",
 		"flyky:for_advancements/main"
 	]
 }

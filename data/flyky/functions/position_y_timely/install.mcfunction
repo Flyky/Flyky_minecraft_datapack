@@ -1,0 +1,1 @@
+scoreboard objectives add y_timely dummy

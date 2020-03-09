@@ -1,0 +1,1 @@
+execute as @a[scores={activation=996..}] run advancement grant @s only minecraft:story/moyu_rewards

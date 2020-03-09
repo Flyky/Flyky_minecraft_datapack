@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:end/elytra",
+    "display": {
+        "title": {"text": "虚无旅行者","bold": true,"color": "black"},
+        "description": [{"text": "受到虚空伤害后","italic": true},{"text": "平安返航","italic": false,"color": "gold","bold": true}],
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "func": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["func"]],
+    "rewards": {
+        "experience": 500
+    }
+}

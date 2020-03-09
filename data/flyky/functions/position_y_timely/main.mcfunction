@@ -1,0 +1,1 @@
+execute as @a at @s run execute store result score @s y_timely run data get entity @s Pos[1] 1

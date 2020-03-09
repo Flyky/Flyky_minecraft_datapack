@@ -5,6 +5,8 @@ function flyky:highlight_to_sayhi/install
 function flyky:welcome/install
 function flyky:item_cleaner/install
 function flyky:bigkiller/install
+function flyky:position_y_timely/install
+function flyky:for_advancements/install
 function flyky:config/install
 tellraw @a {"text":"---------------------------------------------","color":"white"}
 tellraw @a [{"text":"Welcome to use ","color":"yellow"},{"text":"[Flyky_minecraft_datapack]","color":"light_purple","underlined":true},{"text":"  for server by ","color":"yellow"},{"text":"[Flyky]","color":"aqua","underlined":true}]

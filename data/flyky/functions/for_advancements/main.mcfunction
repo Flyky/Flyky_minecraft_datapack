@@ -1,1 +1,3 @@
-function flyky:for_advancements/triggers/king_of_moyu
+function flyky:for_advancements/triggers/moyu_rewards
+function flyky:for_advancements/triggers/void_travel
+function flyky:for_advancements/triggers/abyss_walker

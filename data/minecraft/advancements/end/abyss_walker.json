@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:end/void_travel",
+    "display": {
+        "title": {"text": "深渊行者","bold": true,"color": "black"},
+        "description": [{"text": "落至虚空y-1000下仍","italic": true},{"text": "平安返航","italic": false,"color": "gold","bold": true}],
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "func": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [["func"]],
+    "rewards": {
+        "experience": 1000
+    }
+}
