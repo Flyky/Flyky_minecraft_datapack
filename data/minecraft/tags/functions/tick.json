@@ -1,6 +1,7 @@
 {
 	"values": [ 
 		"flyky:score/main",
+		"flyky:daidailll_elf/main",
 		"flyky:sleep/main",
 		"flyky:highlight_to_sayhi/tick",
 		"flyky:welcome/main",

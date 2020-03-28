@@ -40,7 +40,11 @@ original design by [Harvey_kang](https://github.com/Harveykang)
 循环清除怪物（tp虚空方式，无掉落物）    
 命名为Dinnerbone，Grumm，remained, qwq的怪物不会被清除（功能性怪物防止误杀），不包含僵尸村民，凋灵，末影龙    
 `/trigger bigkiller`开启  
-`/trigger bigkiller set -1`关闭  
+`/trigger bigkiller set -1`关闭   
+  
+## 带带佬小精灵（未睡时长提醒）
+3游戏日没有睡眠后将自动提醒（幻翼生成条件之一）  
+死亡或睡眠均可重置未睡时长（死亡也是一种睡眠）  
 
 ## advancements
 ### VMYS航天人

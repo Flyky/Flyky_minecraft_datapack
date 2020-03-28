@@ -6,3 +6,4 @@ function flyky:welcome/uninstall
 function flyky:item_cleaner/uninstall
 function flyky:bigkiller/uninstall
 function flyky:config/uninstall
+function flyky:daidailll_elf/uninstall

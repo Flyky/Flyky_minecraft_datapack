@@ -8,6 +8,7 @@ function flyky:bigkiller/install
 function flyky:position_y_timely/install
 function flyky:for_advancements/install
 function flyky:config/install
+function flyky:daidailll_elf/install
 tellraw @a {"text":"---------------------------------------------","color":"white"}
 tellraw @a [{"text":"Welcome to use ","color":"yellow"},{"text":"[Flyky_minecraft_datapack]","color":"light_purple","underlined":true},{"text":"  for server by ","color":"yellow"},{"text":"[Flyky]","color":"aqua","underlined":true}]
 tellraw @a [{"text":"欢迎使用 ","color":"yellow"},{"text":"[Flyky的MC数据包(server)]，","color":"light_purple","underlined":true}]

@@ -1,0 +1,4 @@
+tellraw @s [{"text":"【带带佬小精灵】提醒您：","color":"yellow","bold":true},{"text":"您已经累计 ","color":"reset"},{"score":{"name":"@s","objective":"dd_day"},"color":"red"},{"text":"天"},{"score":{"name":"@s","objective":"dd_day"},"color":"red"},{"text":"夜"},{"text":" 没有睡了！","color":"reset"}]
+execute if score @s dd_day matches 3 run tellraw @s {"text":"- 带带佬祝您在夜晚与蝠同乐","italic":true,"color":"light_purple"}
+execute if score @s dd_day matches 4..7 run tellraw @s {"text":"- 带带佬已经不敢靠近您了","italic":true,"color":"gray"}
+execute if score @s dd_day matches 8.. run tellraw @s {"text":"- 您大概已经见不到带带佬了","italic":true,"color":"dark_red"}
