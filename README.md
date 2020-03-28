@@ -20,6 +20,7 @@ minecraft datapack for jave edition (version 1.15.x)
 ## functions
 ### 进群提示
 新人进群提示 以及 老玩家进群提示 
+含登录次数统计 和 开服天数总计（游戏日）
   
 ### 功能提示与设置
 `/trigger options`触发  

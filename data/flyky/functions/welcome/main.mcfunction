@@ -1,3 +1,7 @@
+# 开服时间计算
+execute store result score server_days server_days run time query gametime
+scoreboard players operation server_days server_days /= 24000 24000
+
 # 新人登录
 tellraw @a[tag=!oldPlayer] [{"text":"Welcome!! ","color":"red","bold":true},{"text":"欢迎新人加入 ","color":"yellow","bold":false},{"text":"摸鱼村服(VMYS)","color":"gold","bold":true,"underlined":true}]
 tellraw @a[tag=!oldPlayer] [{"text":"本服现为 ","color":"yellow"},{"text":"JE1.15.2 vanilla server","color":"aqua","underlined":true},{"text":" ,开启正版验证与白名单","color":"yellow","underlined":false}]
@@ -12,7 +16,7 @@ tag @a[tag=!oldPlayer] add oldPlayer
 
 # 老玩家
 scoreboard players add @a[scores={QuitGame=1..}] loginTimes 1
-tellraw @a[scores={QuitGame=1..}] [{"text":"这是您的第 ","color":"blue"},{"score":{"name":"@a[scores={QuitGame=1}]","objective":"loginTimes"}},{"text":" 次进服 ！","color":"blue"}]
+tellraw @a[scores={QuitGame=1..}] [{"text":"现在是VMYS(v1.15.x)开服的第 ","color":"dark_green"},{"score":{"name":"server_days","objective":"server_days"},"color":"green"},{"text":" 天(游戏日) ！","color":"dark_green"},{"text":" 这是您的第 ","color":"blue"},{"score":{"name":"@a[scores={QuitGame=1}]","objective":"loginTimes"},"color":"dark_aqua"},{"text":" 次进服 ！","color":"blue"}]
 tellraw @a[scores={QuitGame=1..}] [{"text":"Welcome back ~","color":"red","bold":true},{"text":"欢迎回来，这里是你熟悉的 ","color":"yellow","bold":false},{"text":"摸鱼村服(VMYS)","color":"gold","bold":true,"underlined":true}]
 tellraw @a[scores={QuitGame=1..}] [{"text":"本服现为 ","color":"yellow"},{"text":"JE1.15.2 vanilla server","color":"aqua","underlined":true},{"text":" ,开启正版验证","color":"yellow","underlined":false}]
 tellraw @a[scores={QuitGame=1..}] {"text":"------------------------------------------","color":"gray"}
