@@ -31,6 +31,9 @@ scoreboard objectives add iron_shovel minecraft.used:minecraft.iron_shovel
 scoreboard objectives add stone_pickaxe minecraft.used:minecraft.stone_pickaxe
 scoreboard objectives add stone_axe minecraft.used:minecraft.stone_axe
 scoreboard objectives add stone_shovel minecraft.used:minecraft.stone_shovel
+scoreboard objectives add netherite_paxe minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add netherite_axe minecraft.used:minecraft.netherite_axe
+scoreboard objectives add netherite_shovel minecraft.used:minecraft.netherite_shovel
 ####
 #安装统计项目#
 scoreboard objectives add totalDug dummy
