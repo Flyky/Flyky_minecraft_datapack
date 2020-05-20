@@ -2,7 +2,7 @@
 # 预留保留名（不会被清理的）：Dinnerbone，Grumm，remained, qwq
 
 # 僵尸猪人
-kill @e[type=zombie_pigman,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq]
+kill @e[type=zombified_piglin,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq]
 
 # 恶魂
 kill @e[type=ghast,name=!Dinnerbone,name=!Grumm,name=!remained,name=!qwq]
