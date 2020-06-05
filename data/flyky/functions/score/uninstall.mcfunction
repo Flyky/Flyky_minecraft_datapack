@@ -21,6 +21,9 @@ scoreboard objectives remove iron_shovel
 scoreboard objectives remove stone_pickaxe
 scoreboard objectives remove stone_axe
 scoreboard objectives remove stone_shovel
+scoreboard objectives remove netherite_paxe
+scoreboard objectives remove netherite_axe
+scoreboard objectives remove netherite_shovel
 ####
 #移除队伍#
 team remove displayScoresOff

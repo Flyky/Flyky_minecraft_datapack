@@ -35,12 +35,15 @@ team join displayScoresOff @a[team=]
 execute as @a[scores={diamond_pickaxe=1..}] run function flyky:score/tools/diamond_pickaxe
 execute as @a[scores={iron_pickaxe=1..}] run function flyky:score/tools/iron_pickaxe
 execute as @a[scores={stone_pickaxe=1..}] run function flyky:score/tools/stone_pickaxe
+execute as @a[scores={netherite_paxe=1..}] run function flyky:score/tools/netherite_pickaxe
 execute as @a[scores={diamond_axe=1..}] run function flyky:score/tools/diamond_axe
 execute as @a[scores={iron_axe=1..}] run function flyky:score/tools/iron_axe
 execute as @a[scores={stone_axe=1..}] run function flyky:score/tools/stone_axe
+execute as @a[scores={netherite_axe=1..}] run function flyky:score/tools/netherite_axe
 execute as @a[scores={diamond_shovel=1..}] run function flyky:score/tools/diamond_shovel
 execute as @a[scores={iron_shovel=1..}] run function flyky:score/tools/iron_shovel
 execute as @a[scores={stone_shovel=1..}] run function flyky:score/tools/stone_shovel
+execute as @a[scores={netherite_shovel=1..}] run function flyky:score/tools/netherite_shovel
 ####
 #计算总量#
 #给缓存记分板赋初始值

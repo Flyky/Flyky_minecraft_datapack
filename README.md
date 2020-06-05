@@ -1,5 +1,5 @@
 # Flyky_minecraft_datapack
-minecraft datapack for jave edition (version 1.15.x)   
+minecraft datapack for jave edition (version 1.16.x)   
 *!!数据包仅供个人私服使用，不作发布release版本，如需使用请注意自行魔改!!*  
 *!!数据包仅供个人私服使用，不作发布release版本，如需使用请注意自行魔改!!*  
 
