@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": [
+        {
+            "item": "minecraft:basalt"
+        }
+    ],
+    "result": "minecraft:blackstone",
+    "experience": 0.15,
+    "cookingtime": 120
+}

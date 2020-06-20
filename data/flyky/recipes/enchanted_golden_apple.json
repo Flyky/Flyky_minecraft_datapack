@@ -1,18 +1,12 @@
 {
-	"type": "crafting_shaped",
-	"pattern": [
-		"$!$"
-	],
-	"key": {
-		"$": {
-			"item": "minecraft:command_block"
-        },
-        "!": {
-			"item": "minecraft:apple"
-		}
+	"type": "minecraft:smithing",
+	"base": {
+	  "item": "minecraft:apple"
+	},
+	"addition": {
+	  "item": "minecraft:command_block"
 	},
 	"result": {
-		"item": "minecraft:enchanted_golden_apple",
-		"count": 1
+	  "item": "minecraft:enchanted_golden_apple"
 	}
-}
+  }

@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+        "*",
+		"o",
+        "*"
+	],
+	"key": {
+		"*": {
+			"item": "minecraft:blackstone_slab"
+		},
+		"o": {
+			"item": "minecraft:slime_ball"
+		}
+	},
+	"result": {
+		"item": "minecraft:blackstone",
+		"count": 1
+	}
+}
