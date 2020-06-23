@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+	  "item": "minecraft:lantern"
+	},
+	"addition": {
+	  "item": "minecraft:soul_soil"
+	},
+	"result": {
+	  "item": "minecraft:soul_lantern"
+	}
+  }

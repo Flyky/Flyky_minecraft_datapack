@@ -24,6 +24,12 @@
 		"minecraft:birch_wood",
 		"minecraft:jungle_wood",
 		"minecraft:acacia_wood",
-		"minecraft:dark_oak_wood"
+		"minecraft:dark_oak_wood",
+		"minecraft:warped_stem",
+		"minecraft:stripped_warped_stem",
+		"minecraft:warped_hyphae",
+		"minecraft:crimson_stem",
+		"minecraft:stripped_crimson_stem",
+		"minecraft:crimson_hyphae"
     ]
 }
